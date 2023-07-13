@@ -1,0 +1,177 @@
+body{
+  width:530px;
+  /*background-color: #006097;*/
+}
+
+.row{
+  margin-left: 0px;
+}
+
+.container{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+
+.tab{
+  min-height: 164px;
+  margin-top: -16px;
+}
+
+.spinner-border{
+
+    margin-top: 19%;
+    margin-left: 43%;
+
+}
+
+span.level-1-item {
+    width: 100%;
+    float: left;
+}
+
+
+.level-1{
+ max-height: 210px;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.level-2{
+    max-height: 210px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+.level-01 ::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+.level-01 ::-webkit-scrollbar-track {
+  background: grey; 
+}
+ 
+/* Handle */
+.level-01 ::-webkit-scrollbar-thumb{
+  background: #17a2b8; 
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+span.level-2-item.level-2-link {
+    width: 100%;
+    float: left;
+}
+
+span.level-1-item {
+    width: 100%;
+    float: left;
+  /*  background-color: lightgray;*/
+    margin-bottom: 3px;
+    padding: 2px 0px 3px 6px;
+}
+
+span.hover-css:hover {
+  
+    background-color: lightgray;
+   
+}
+
+.fa.fa-folder{
+  color: #ffa500e8;
+  margin-right: 6px;
+  float: left;
+  margin-top: 5px;
+}
+
+.level-1 .fa.fa-caret-right{
+    float: right;
+    padding-top: 5px;
+    margin-right: 11px;
+  }
+
+
+  h4{
+/*    margin-left: 24%;*/
+    color: #17a2b8;
+  }
+
+  .level-2-com{
+    cursor: pointer;
+  }
+
+   .level-2-com:hover{
+    background-color: grey;
+  }
+
+
+.level-2-link {
+  
+    width: 100%;
+    float: left;
+    /* background-color: lightgray; */
+    margin-bottom: 3px;
+    padding: 2px 0px 3px 6px;
+}
+
+.level-2-link:hover {
+ 
+    background-color: lightgray;
+}
+.sub-items{
+  cursor: default;
+}
+
+.current-sub{
+   background-color: #605d5d;
+    color: white;
+}
+
+.current-sub:hover{
+   background-color: #605d5d;
+    color: white;
+}
+
+
+.level-2-com img{
+  margin-right: 6px;
+}
+
+
+.level-2-com {
+  white-space: nowrap; 
+  width: 50px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+ .sub-items-text {
+    white-space: nowrap;
+    width: 142px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+  }
+
+
+  .tab-1-heading{
+    margin-top: 9px;
+  }
+
+
+  .login-with-google{
+    margin-top: 9%;
+  }
+
+
+  .logout-link{
+    cursor: pointer;
+  }
+
+  .no-url-found{
+    margin-left: 57px;
+  }

@@ -1,0 +1,1 @@
+[13-Nov-2020 18:18:03 UTC] PHP Fatal error:  Cannot use Illuminate\Http\Request as Request because the name is already in use in /home/xbrx34h5ysyc/public_html/secret/app/Http/Controllers/JWTAuthController.php on line 13

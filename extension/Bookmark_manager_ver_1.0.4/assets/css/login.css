@@ -1,0 +1,35 @@
+body{
+  width:335px;
+  /*background-color: #006097;*/
+}
+
+.row{
+  margin-left: 0px;
+}
+
+.container{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+
+.tab{
+  min-height: 164px;
+  margin-top: -16px;
+}
+
+.spinner-border{
+
+    margin-top: 19%;
+    margin-left: 43%;
+
+}
+
+
+.row.login-with-google{
+  margin-top: 40px;
+}
+
+.row.tab-1-heading{
+  margin-top: 52px;
+}

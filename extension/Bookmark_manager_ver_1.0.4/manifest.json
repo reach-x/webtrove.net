@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "Web Trove",
+  "short_name": "Web Trove",
+  "version": "1.0.4",
+  "description": "Web Trove",
+  "browser_action": {
+    "browser_style": false,
+    "default_title": "Web Trove",
+    "default_popup": "/login.html"
+  },
+  "oauth2": {
+    "client_id": "1019049677870-rce2qrs1h6lrdrlnhfv25bi63ebtdq7b.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/userinfo.email"
+    ]
+  },
+  "background": {
+    "scripts": [
+      "/assets/js/jquery-3.4.1.min.js",
+      "/assets/js/moment.min.js",
+      "/assets/js/background.js"
+    ]
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmkMTydktysM6IyLPdFh7jIskaO0lOiLLA6r79igm8f5d9Svp6zwB3pbc8qGu22VRpO2TC5J2E059Qgvf7zniDaNZAfea3dCxmJHdTGZ7/w0Eex/82cCirsvKpz/v+ic4lSMUrcp/dzc/j4BqtWJpJ8osCF2WX+1Beopd/j4LfP0c6LAZxYgN6cf513iwhMwKDUPZaM6WGvyIYNAesXjSsBW/j40c05rprz5JNUJ3rhRtrsYnQRaP3LHmg3C6Fj2EQrTw6bZnFN/NY1QV7ky499v9ZGfJOXgGs217FaiKaX7a3PkrQ3Ni8mUl1E/N8CnE/IBL4Jv+XrlJ+YV5xnxOBwIDAQAB",
+  "permissions": [
+    "identity",
+    "<all_urls>",
+    "storage"
+  ]
+}

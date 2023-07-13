@@ -1,0 +1,260 @@
+body{width: 309px;}
+/*.ext-body h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #303030;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.titile-2 {
+    margin: 20px!important;
+}
+
+.card {
+    -webkit-box-shadow: 1px 2px 6px 2px rgba(0,0,0,0.25);
+	-moz-box-shadow: 1px 2px 6px 2px rgba(0,0,0,0.25);
+	box-shadow: 1px 2px 6px 2px rgba(0,0,0,0.25);
+	border: none;
+}
+
+label:focus,
+input:focus,
+button:focus,
+a:focus,
+select:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+input {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+input:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+::before {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+a {
+    color: #0057FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.form-control:focus{
+    border-color: #cccccc;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.mt-3 {
+    margin-top: 30px;
+}
+
+.mt-4 {
+    margin-top: 40px;
+}
+
+.mt-0 {
+    margin-top: 0 !important;
+}
+
+.pt-0 {
+    padding-top: 0 !important;
+}
+
+.no-border {
+    border: none !important;
+}
+
+.ext-body form label {
+    font-size: 12px;
+    font-weight: 500;
+    color: 606060;
+    line-height: 24px;
+}
+
+.ext-body form input {
+    min-height: 44px;
+}
+
+.ext-body .lnk-1 {
+    font-size: 12px;
+    color: #0057FF;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.ext-body span.caption {
+    font-size: 12px;
+    color: 909090;
+    font-weight: 400;
+    display: block;
+    margin: 20px 0;
+} 
+
+.ext-body span.caption a {
+    font-weight: 500;
+    color: #0057FF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+.btn-white {
+    background: #fff !important;
+    color: #0057FF !important;
+}
+
+.btn-primary {
+    background: #F20E0F;
+    padding: 10px 60px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+}
+
+.btn-primary:hover {
+	background: #F20E0F;
+    opacity:0.5;
+}
+
+footer {
+    margin: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    color: #909090;
+}
+
+.navbar {
+    padding: 0;
+    float: right;
+    margin: 0;
+}
+
+.navbar .br-1 {
+    border-right: 1px solid #909090;
+}
+
+.navbar li {
+    list-style: none;
+    color: #fff;
+}
+
+.navbar .nav-link {
+    padding: 18px;
+	color:#f5f5f5;
+}
+.navbar .nav-link.active {
+	color:#ffffff;
+	background:#000;
+}
+
+.navbar .nav-link:hover {
+    background: #1B1C2A;
+}
+
+.dropdown-menu {
+    padding: 0;
+}
+
+.dropdown-menu .bt-1 {
+    border-top: 1px solid #f6f6f6;
+}
+
+.dropdown-menu .dropdown-item {
+    padding: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #303030;
+}
+
+.dropdown-menu .dropdown-item img {
+    margin-right: 10px;
+}
+
+.card header {
+    background: #383948;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.card header .logout {
+    display: block;
+    float: right;
+    padding: 23px 26px;
+    border-left: 1px solid #979797;
+}
+
+.card header .settings {
+    float: right;
+    padding: 23px;
+}
+.card header .settings:hover {
+    background: #1B1C2A;
+}
+
+.card header .logout:hover {
+    background: #1B1C2A;
+    border-top-right-radius: 4px;
+}
+
+.welcome-cont {
+    margin: 15px 14px;
+    overflow: auto;
+    float: left;
+}
+
+.welcome-cont p {
+   font-size: 14px;
+   color: #fff;
+   margin: 0 10px;
+   float: left;
+   line-height: 33px;
+   font-weight: 500;
+   width: 140px;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+
+.welcome-cont .avtar {
+    background: #0057FF;
+    padding: 6px 12px;
+    font-weight: 600;
+    font-size: 14px;
+    float: left;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.viral {
+    background: #0057FF;
+    /* padding: 15px; */
+}
+
