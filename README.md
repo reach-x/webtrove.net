@@ -1,5 +1,3 @@
-Here's a suggested README.md file for your open-source bookmark management system:
-
 ```markdown
 # WebTrove
 
